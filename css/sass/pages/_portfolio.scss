@@ -1,0 +1,32 @@
+/*Portfolio*/
+.portfolio {
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin: 5rem 0;
+
+    article {
+      background: $background-color-1;
+      padding: 1rem 2rem;
+      border-radius: 1rem;
+      width: 250px !important;
+      box-shadow: $shadow-1;
+      margin-bottom: 2rem;
+      img {
+        width: 100%;
+      }
+      a.last {
+        margin-top: 2.5rem;
+      }
+    }
+  }
+  p {
+    a {
+      font-size: 2rem;
+      color: $color-primary;
+    }
+  }
+}
+/*Portfolio*/

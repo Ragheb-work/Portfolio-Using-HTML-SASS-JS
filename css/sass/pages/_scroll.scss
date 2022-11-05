@@ -1,0 +1,15 @@
+/* Scroll Btn */
+.scroll {
+  position: fixed;
+  bottom: 4rem;
+  right: 2rem;
+  font-size: 4rem;
+  color: #ff014f;
+  cursor: pointer;
+  display: none;
+  &.show {
+    display: block;
+  }
+}
+
+/* Scroll Btn */

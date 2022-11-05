@@ -1,0 +1,23 @@
+/* Services */
+.services {
+  ul {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    li {
+      position: relative;
+      margin-left: 2rem;
+      cursor: pointer;
+      transition: all 400ms ease;
+      margin-bottom: 1.5rem;
+      list-style-type: disclosure-closed;
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+}
+/* Services */

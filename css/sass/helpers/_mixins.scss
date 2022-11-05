@@ -1,0 +1,22 @@
+@mixin button($textColor: $color-primary) {
+  display: inline-block;
+  padding: 15px 35px;
+  list-style: none;
+  text-decoration: none;
+  color: $textColor;
+
+  border-radius: 6px;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: $shadow-1;
+  transition: $transition;
+  position: relative;
+  z-index: 2;
+  font-size: 1.8rem;
+  font-weight: 500;
+  border: 0 none;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
