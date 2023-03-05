@@ -1,8 +1,5 @@
 // Page Preloader
-let loader = document.getElementById("preloader");
-window.addEventListener("load", () => {
-  loader.style.display = "none";
-});
+
 // Page Preloader
 
 // Scroll To Top btn
